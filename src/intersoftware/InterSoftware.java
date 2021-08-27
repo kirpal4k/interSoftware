@@ -18,12 +18,14 @@ public class InterSoftware {
      */
     public static void main(String[] args) {
       // TODO code application logic here
-      Empleador empleador=new Empleador();
-      empleador.nombre="bancolombia";
+      Empleador empleador=new Empleador("Banco de Bogota");
+      
+      System.out.println("El nombre del empleador es: "+empleador.nombre);
+      /*empleador.nombre="bancolombia";
       System.out.println("El nombre del empleador es: "+ empleador.nombre);
       
-      empleador.nit=5;
-      System.out.println("El nit es: "+empleador.nit);
+      empleador.nit=300;
+      System.out.println("El nit es: "+empleador.nit);*/
     }
     
 }

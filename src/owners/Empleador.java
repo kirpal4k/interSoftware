@@ -12,10 +12,25 @@ package owners;
 public class Empleador {
     // VARIANLES=ATRIBUTOS=DATOS
     
-    String nombre;
-    byte nit;
-    String direccion;
-    String telefono;
+    public String nombre;
+    public int nit;
+    public String direccion;
+    public String telefono;
     
-    // 
+    // METODOS=FUNSIONES=ACCIONES
+
+    public Empleador() {
+        
+        
+    }
+
+    public Empleador(String nombre, int nit, String direccion, String telefono) {
+        this.nombre = nombre;
+        this.nit = nit;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+    
+    
+    
 }
