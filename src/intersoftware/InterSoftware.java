@@ -18,7 +18,7 @@ public class InterSoftware {
      */
     public static void main(String[] args) {
       // TODO code application logic here
-      Empleador empleador=new Empleador("Banco de Bogota");
+      Empleador empleador=new Empleador("Banco de Bogota",5,"Calle 43 56-71","314578521");
       
       System.out.println("El nombre del empleador es: "+empleador.nombre);
       /*empleador.nombre="bancolombia";
